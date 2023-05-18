@@ -1,0 +1,14 @@
+﻿
+@model List<RedisDemo.UI.Models.Entities.Category>
+
+<table>
+	<thead></thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Name</td>
+			</tr>
+		}
+	</tbody>
+</table>

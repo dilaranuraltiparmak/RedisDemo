@@ -1,0 +1,15 @@
+﻿
+
+@model List<RedisDemo.UI.Models.Entities.Brand>
+
+<table>
+	<tbody></tbody>
+	<thead>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@item.Name</td>
+		</tr>
+	}
+	</thead>
+</table>

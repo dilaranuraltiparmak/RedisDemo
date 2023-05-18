@@ -1,0 +1,8 @@
+﻿@model RedisDemo.UI.Models.Entities.Brand
+
+<form asp-action="Add" asp-controller="Brand" >
+	<label>Marka Adı Giriniz:</label>
+	<input type="text" class="form-control" asp-for="Name" />
+	<br/><br/>
+	<input type="submit" value="Kaydet" class="btn btn-primary" />
+</form>

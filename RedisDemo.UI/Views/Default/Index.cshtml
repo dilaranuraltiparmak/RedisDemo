@@ -1,0 +1,13 @@
+﻿@model List<StackExchange.Redis.RedisValue>
+<table>
+	<tbody></tbody>
+	<thead>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item</td>
+			</tr>
+		}
+
+	</thead>
+</table>
